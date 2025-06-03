@@ -1,0 +1,691 @@
+
+
+<!doctype html>
+<!--Rania-->
+<html lang="en">
+<head>
+ <meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <title>Bouchées de bonheur</title>
+<style>
+
+
+.highlight:hover {
+       background-color:pink;
+   }
+   html {
+     background-color: linear-gradient(135deg, #ede9e3, #ebd5dd);
+   }
+   body{
+   font-family: "Indie Flower", cursive;
+   font-size: 22px;
+   background: linear-gradient(135deg, #ede9e3, #ebd5dd); /* gradient from whitish to pink */
+   color: rgb(85, 61, 61);
+   border-style: solid;
+ border-color: rgb(255, 179, 192);
+ border-width: 9px ;
+}
+    
+           h1 {
+             background-color: #ebd5dd;
+              color: #654321;
+               text-align: center;
+               font-family: 'Barriecito', cursive;
+               margin-top: 0.3em;
+               margin-bottom: 0.3em;
+           }
+           h3 {
+               text-align: center;
+           }
+          
+          
+           img {
+               margin: 10px auto;
+               border-radius: 10px;
+               padding: 1px;
+           }
+           #searchinput {
+               width: 80%;
+               font-size: 16px;
+               padding: 8px;
+               border: 1px solid #ccc;
+               border-radius: 5px; 
+               }
+
+
+            
+.button:hover {
+ background-color:rgb(224, 161, 172);
+}
+.buttons:hover{
+   background-color: rgb(218, 164, 188);
+}
+.button{
+background-color: #f0ccdc;
+ border: 1px dashed rgb(237, 165, 209);
+ color: #654321;
+ padding: 10px;
+ cursor: pointer;
+}
+#button-home button{
+ background-color: #f0ccdc;
+ border: 1px dashed rgb(237, 165, 209);
+ color: #654321;
+ padding: 10px;
+ cursor: pointer;
+}
+
+
+.button1-group button {
+ background-color: #f0ccdc;
+ border: 1px dashed rgb(237, 165, 209);
+ color: #654321;
+ padding: 10px;
+ cursor: pointer;
+ float: left;
+}
+
+
+.navbar {
+ display: flex;
+ background-color: #f0ccdc;
+ border-bottom: 2px dashed rgb(237, 165, 209);
+ margin-bottom: 20px;
+}
+
+
+.navbar a {
+ margin: 0;
+ padding: 10px 0;
+ box-sizing: border-box; /* include border in width */
+ flex: 1; /* fills equally */
+ border-right: 1px dashed rgb(237, 165, 209);
+ text-align: center;
+ text-decoration: none;
+ color: #654321;
+ font-weight: bold;
+ background-color: #fff0f5;
+ font-size: 16px;
+}
+
+
+.navbar a:last-child {
+ border-right: none;
+}
+
+
+.navbar a.home-button1 {
+ font-family: 'Barriecito', cursive;
+ font-size: 24px;
+ font-weight: normal;
+}
+
+
+.navbar a:hover {
+ background-color: rgb(224, 161, 172);
+}
+
+
+.navbar {
+ border: 2px solid rgb(221, 151, 209);
+}
+.navbar a{
+ border: 1px solid rgb(240, 192, 232);
+}
+footer {
+ background-color: pink;
+}
+
+
+
+
+</style>
+
+
+ <link rel="stylesheet" href="styles.css" />
+ <link
+   href="https://fonts.googleapis.com/css2?family=Barriecito&family=Gloria+Hallelujah&display=swap"
+   rel="stylesheet"
+ />
+</head>
+
+
+<body>
+
+<div id="google_translate_element">
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'fr'}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</div>
+
+<div id="home">
+ <header>
+   <!--Search bar-->
+  <input id = "searchinput" placeholder= "🔎 Trouve des recettes...">
+<h1>Bouchées de bonheur</h1>
+
+
+   <!-- Navigation Bar -->
+ <nav class="navbar">
+   <a href="#home" class="home-button1">⾕</a>
+   <a href="#cookie">Biscuits</a>
+   <a href="#cake">Gâteaux</a>
+   <a href="#brownie">Brownies</a>
+   <a href="#pie">Tartes</a>
+ </nav>
+
+
+   <a href="#brownie">
+     <img
+       id="classic-brownies"
+       src="https://www.thechunkychef.com/wp-content/uploads/2021/02/Classic-Fudgy-Brownies-1200-680x680.jpg"
+       width="200"
+       height="200"
+       alt="Des brownies classiques"
+     />
+   </a>
+
+
+   <a href="#cookie">
+   <img
+     id="chocolate-chip-cookies"
+     src="https://www.foodandwine.com/thmb/m00QQpM3q-PSja3zDhLaEdu5gqU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/2012-r-xl-classic-chocolate-chip-cookies-0336af978c1c4798809ec182e8af79e5.jpg"
+     width="200"
+     height="200"
+     alt="Des biscuits aux pépites de chocolat "
+   />
+   </a>
+
+
+   <a href="#cake">
+     <img
+       id="classic-pound-cake"
+       src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fit,w_730,h_487/k%2FPhoto%2FRecipes%2F03-2024-pound-cake%2FPound-Cake-14"
+       width="200" height="200"
+       alt="Quatre-quarts classiques"
+     />
+   </a>
+  <a href = "#pie"> <img src="https://littlespoonfarm.com/wp-content/uploads/2021/08/apple-pie-on-a-plate-with-ice-cream-1-1.jpg" ,width="200" height="200"alt="Tarte des pommes" >
+  </a>
+
+
+ </header>
+
+
+ <h3>À propos du site-web</h3>
+ <h5>
+   <span class="highlight">Bouchées</span>
+   <span class="highlight">de</span>
+   <span class="highlight">bonheur</span>
+   <span class="highlight">est</span>
+   <span class="highlight">un</span>
+   <span class="highlight">site-web</span>
+   <span class="highlight">canadien</span>
+   <span class="highlight">inspiré</span>
+   <span class="highlight">par</span>
+   <span class="highlight">l'</span>
+   <span class="highlight">arôme</span>
+   <span class="highlight">chaleureux</span>
+   <span class="highlight">de</span>
+   <span class="highlight">la</span>
+   <span class="highlight">cuisine</span>
+   <span class="highlight">de</span>
+   <span class="highlight">ma</span>
+   <span class="highlight">grandmère,</span>
+   <span class="highlight">où</span>
+   <span class="highlight">l'</span>
+   <span class="highlight">odeur</span>
+   <span class="highlight">des</span>
+   <span class="highlight">biscuits</span>
+   <span class="highlight">aux</span>
+   <span class="highlight">pépites</span>
+   <span class="highlight">de</span>
+   <span class="highlight">chocolat</span>
+   <span class="highlight">fraîchement</span>
+   <span class="highlight">cuits</span>
+   <span class="highlight">remplissait</span>
+   <span class="highlight">toujours</span>
+   <span class="highlight">l'</span>
+   <span class="highlight">air.</span>
+   <span class="highlight">Maintenant,</span>
+   <span class="highlight">je</span>
+   <span class="highlight">veux</span>
+   <span class="highlight">partager</span>
+   <span class="highlight">cette</span>
+   <span class="highlight">joie</span>
+   <span class="highlight">avec</span>
+   <span class="highlight">tout</span>
+   <span class="highlight">le</span>
+   <span class="highlight">monde.</span>
+   <br />
+ </h5>
+
+
+<footer>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+ </footer>
+</div>
+
+
+<div id="pie">
+<hr>
+<!doctype html>
+<!--Rania -->
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Bouchées de bonheur</title>
+   <input id = "searchinput" placeholder= "🔎 Trouve des recettes...">
+   <br>
+
+
+   <h1> Tartes </h1>
+   <!-- Navigation Bar -->
+ <nav class="navbar">
+   <a href="#home" class="home-btn">⾕</a>
+   <a href="#cookie">Biscuits</a>
+   <a href="#cake">Gâteaux</a>
+   <a href="#brownie">Brownies</a>
+<a href="#pie">Tartes</a>
+ </nav>
+   <link rel="stylesheet" href="styles.css">
+   <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Kranky&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+
+
+       <img src="https://littlespoonfarm.com/wp-content/uploads/2021/08/Homemade-Apple-Pie-Recipe-2-2.jpg" width="200" height="200"alt="Tarte des pommes" style= "float:left";>
+   Personne n'aime les croûtes molles ou les pommes molles, n'est-ce pas? Eh bien, cette recette de tarte aux pommes vous évite ces problèmes. À chaque fois, elle est <em>parfaite.</em>
+       <br>
+       <br>
+       <br>
+
+
+        <h2><strong>Aucun aperçu disponible</strong><h2>
+       
+       <img src = "https://littlespoonfarm.com/wp-content/uploads/2021/08/Homemade-Apple-Pie-Recipe-1.jpg" width = "400" alt = "Une tarte ouverte">
+       <h4>Ingrédients:
+         <br>
+         ▢2 fonds de tarte (23 cm et acheté en magasin)
+         <br>
+▢7 grosses pommes Granny Smith (pelées, évidées et coupées en tranches de 1,2 cm)
+<br>
+▢125 ml de cassonade (en vrac)
+<br>
+▢125 ml de sucre cristallisé
+<br>
+▢2 cuillères à soupe de farine tout usage
+<br>
+▢1 cuillère à café de cannelle moulue
+<br>
+▢⅛ cuillère à café de noix de muscade moulue
+<br>
+▢1 cuillère à soupe de jus de citron (plus le zeste d'un demi-citron)
+<br>
+▢1 gros œuf (légèrement battu dans un petit bol pour la dorure)
+<br>
+▢2 cuillères à soupe de sucre glace (facultatif)
+<br>
+▢Boule de glace à la vanille (facultatif)
+<br>
+</h4>
+
+1. <strong>Suivez les instructions</strong> sur les croûtes à tarte achetées en magasin.
+<br>
+2. Placer la grille du four au centre<strong> et préchauffer le four à 204 °C (400 °F).<strong>
+<br>
+3. Dans un grand bol,<strong>mélanger les tranches de pommes, le sucre cristallisé, la cassonade, la farine, la cannelle, la muscade, le jus et le zeste de citron. </strong> Remuer pour bien enrober.
+<br>
+4. <strong>Déposez la garniture aux pommes sur la croûte inférieure</strong> et jetez le jus au fond du bol.
+<br>
+5. <strong>Déposer le deuxième disque de pâte sur la garniture aux pommes.</strong> À l'aide d'un couteau bien aiguisé, découper la pâte le long du bord extérieur du moule à tarte. Soulever les bords à l'endroit où les deux fonds de tarte se rejoignent, appuyer délicatement pour les sceller et les replier.
+<br>
+6. <strong>Tournez le moule à tarte et répétez l'opération </strong>jusqu'à ce que les bords soient bien rentrés. Pratiquez quatre entailles sur le dessus de la pâte pour permettre à la vapeur de s'échapper.
+<br>
+7. <strong>Déposer la tarte sur une plaque de cuisson. </strong>Badigeonner la surface de la pâte à tarte avec la dorure à l'œuf et saupoudrer de sucre glace.
+<br>
+8. <strong> Couvrir les bords d'une feuille de cuisson </strong> ou d'une feuille de papier aluminium pour éviter qu'ils ne brunissent trop pendant les 25 premières minutes.
+<br>
+9. <strong>Cuire au four à 204 °C (400 °F) pendant 25 minutes.</strong> Retirer délicatement le couvercle, baisser la température du four à 190 °C (375 °F) et poursuivre la cuisson 30 à 35 minutes supplémentaires, ou jusqu'à ce que le dessus soit doré et que le jus bouillonne.
+<br>
+10. <strong>Laisser refroidir à température ambiante </strong>pendant au moins 3 heures. Bon appétit!
+
+
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+
+<small><a href = "https://littlespoonfarm.com/apple-pie-recipe/" target="_blank"> <h6> Recette et photos utilisées de Little Spoon Farm </h6></small> </a>
+
+
+</div>
+
+
+<div id="cake">
+<hr>
+<!doctype html>
+<!--Rania -->
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Bouchées de bonheur</title>
+  
+   <input type = "text" id = "searchinput" placeholder= "🔎 Trouve des recettes...">
+   <br>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+</style>
+
+
+    <!-- Navigation Bar -->
+ <nav class="navbar">
+   <a href="#home" class="home-button1">⾕</a>
+   <a href="#cookie">Biscuits</a>
+   <a href="#cake" >Gâteaux</a>
+   <a href="#brownie">Brownies</a>
+    <a href="#pie">Tartes</a>
+ </nav>
+  
+
+
+   <h1> Quatre-quarts  </h1>
+   <link rel="stylesheet" href="styles.css">
+   <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Kranky&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+   <img id="classic-pound-cake" src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fit,w_730,h_487/k%2FPhoto%2FRecipes%2F03-2024-pound-cake%2FPound-Cake-14"width="200"alt="Quatre-quarts classiques"style= "float:left";>
+
+
+   Quatre-quarts? C'est ennuyant. Oui? Non. Les quatre-quarts sont très sous-estimés; ils sont délicieux! Quoi de plus, ils sont plusieurs variétés des quatre-quarts. Mais, vous ne voulais pas lire beaucoup des mots; vous voulais faire des quatre-quarts. Alors, commençons!
+  
+    <h3> Aperçu:</h3>
+        
+        ① <strong>Placer le beurre non salé dans le bol d'un batteur sur socle ou dans un grand bol.</strong> Laisser es œufs et le lait reposer à température ambiante jusqu'à ce que le beurre soit ramolli.
+        <br>
+        ② <strong>30 minutes avant la cuisson du beurre, préchauffer le four à 175 °C. </strong> Beurrer un moule à cake de 23 x 13 cm et former une bande, comme dans la recette pour les brownies.
+        <br>
+        ③ <strong>Mettre la farine et la levure chimique dans un bol moyen et fouetter.</strong> Ajoutez le sucre cristallisé et le sel casher au bol de beurre.
+        <br>
+        ④ <strong>Battre à vitesse moyenne pendant 4 à 5 minutes </strong> jusqu'à obtenir une légère coloration et une consistance mousseuse.
+        <br>
+        ⑤ <strong>Ajoutez la moitié du mélange de farine et battez à vitesse minimale jusqu'à ce que le tout soit homogène. </strong> Ajoutez ensuite le lait et l'extrait de vanille. Ajoutez le reste de farine et battez jusqu'à obtenir une pâte lisse et homogène.
+        <br>
+        ⑥ <strong>Transférez la pâte dans le moule à cake et retirez les bulles d'air.</strong> Cuire au four jusqu'à ce que le dessus soit doré, 60 à 70 minutes plus tard. Vérifier après 50 minutes : si le dessus est trop foncé, recouvrir d'une feuille de papier aluminium pour le reste de la cuisson.
+        <br>
+        ⑦ <strong>Laissez refroidir 30 minutes.</strong> Démoulez le gâteau et placez-le sur une grille. Laissez refroidir complètement (environ 2 heures) et dégustez !
+      <br>
+       <img src = "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fit,w_730,h_913/k%2FPhoto%2FRecipes%2F03-2024-pound-cake%2FPound-Cake-12" width = "400" alt = "Quatre-quarts classiques">
+       <h3>Ingrédients:</h3>
+         <h4>
+         ▢225 g de beurre non salé plus un peu pour le moule
+         <br>
+▢60 ml de lait entier
+<br>
+▢380 ml de farine tout usage
+<br>
+▢1 cuillère à café de levure chimique
+<br>
+▢4 gros œufs
+<br>
+▢250 ml de sucre cristallisé
+<br>
+▢190 ml de farine tout usage
+<br>
+▢190 ml de sel casher
+<br>
+▢1 cuillère à soupe d'extrait de vanille
+
+
+</h4>
+
+
+<br>
+
+
+1. <strong>Placer 2 bâtonnets de beurre non salé</strong> dans le bol d'un batteur sur socle (ou dans un grand bol si vous utilisez un batteur électrique). Placer 4 gros œufs et 60 ml de lait entier sur le plan de travail. Laisser reposer à température ambiante jusqu'à ce que le beurre soit ramolli.
+<br>
+2. <strong>Environ 30 minutes avant la cuisson du beurre,</strong> placer une grille au milieu du four et préchauffer le four à 175 °C. Beurrer légèrement un moule à cake de 23 x 13 cm. Tapisser le fond et les deux côtés longs du moule d'une feuille de papier sulfurisé dépassant de quelques centimètres pour former une bande.
+<br>
+
+
+3. <strong>Dans un bol moyen, mettre 380 ml de farine</strong> tout usage et 1 cuillère à café de levure chimique et fouetter pour mélanger.
+<br>
+4. <strong>Ajouter 250 ml de sucre cristallisé et 200 ml de sel casher</strong> au bol de beurre. Battre avec la feuille à vitesse moyenne jusqu'à obtenir une pâte plus claire et mousseuse, en raclant les parois du bol avec une spatule souple si nécessaire (4 à 5 minutes au total). Incorporer les œufs un à un en battant bien et en raclant les parois après chaque ajout. La pâte aura l'air séparée.
+<br>
+5. <strong>Ajouter la moitié du mélange de farine </strong>et battre à vitesse minimale jusqu'à ce que le mélange soit homogène. Ajouter le lait et 1 cuillère à soupe d'extrait de vanille et battre à vitesse lente jusqu'à ce que le mélange soit homogène.
+<br>
+6. <strong>Ajouter le reste de farine</strong> et battre jusqu'à obtenir une pâte lisse et homogène, en raclant les parois si nécessaire. Transférer la pâte dans le moule à cake et lisser le dessus. Prendre le moule et tapoter doucement le fond sur un plan de travail à plusieurs reprises pour éliminer les bulles d'air.
+<br>
+7. <strong>Cuire au four </strong>jusqu'à ce que le dessus soit doré et qu'un cure-dent inséré au centre en ressorte propre, soit 60 à 70 minutes. Vérifier la cuisson après 50 minutes : si le dessus devient trop foncé, recouvrir le dessus du gâteau d'une feuille de papier aluminium pendant le reste de la cuisson.
+<br>
+8. <strong>Déposer sur une grille</strong> et laisser refroidir 30 minutes. En saisissant l'excédent de papier sulfurisé, démouler le gâteau et le placer sur la grille. Laisser refroidir complètement, environ 2 heures.
+
+
+
+
+   <small><a href = "https://www.thekitchn.com/pound-cake-recipe-23652075" target="_blank"> <h6> Recette et photos utilisées de The Kitchn </h6></small> </a>
+
+
+</div>
+
+
+<div id="brownie">
+<hr>
+<!doctype html>
+<!--Rania -->
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Bouchées de bonheur</title>
+   <input id = "searchinput" placeholder= "🔎 Trouve des recettes...">
+   <br>
+
+
+   <h1> Brownies </h1>
+   <!-- Navigation Bar -->
+ <nav class="navbar">
+   <a href="#home" class="home-btn">⾕</a>
+   <a href="#cookie">Biscuits</a>
+   <a href="#cake">Gâteaux</a>
+   <a href="#brownie">Brownies</a>
+<a href="#pie">Tartes</a>
+ </nav>
+   <link rel="stylesheet" href="styles.css">
+   <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Kranky&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+
+
+       <img id="classic_brownies" src="https://www.thechunkychef.com/wp-content/uploads/2021/02/Classic-Fudgy-Brownies-1200-680x680.jpg" width="200" height="200"alt="Des brownies classiques" style= "float:left";>
+       Qui n'aime pas les brownies? Des brownies moelleux, fondants et délicieux. Mais trouver la recette de brownie parfaite peut être difficile. C'est pourquoi, chez Bouchées de Bonheur, nous vous facilitons la recherche de desserts savoureux à savourer. Avec bonheur.
+       <br>
+        <strong>Aperçu:</strong>
+         <br>
+        ① <strong>Faire fondre le beurre et le chocolat.</strong> Puis, retirez la casserole.
+        <br>
+       
+        ② <strong>Incorporer les deux sucres en fouettant. </strong>Si vous le faites pendant que le beurre est encore chaud, le dessus sera plus croustillant!
+        <br>
+        ③ <strong>Ajouter les œufs.</strong> Incorporez-les un à un, puis ajoutez la <strong>vanille.</strong>
+        <br>
+        ④ <strong>Incorporer les ingrédients secs.</strong> Il s'agit de cacao en poudre, de farine, de sel et de poudre d'espresso. Les spatules en caoutchouc sont idéales pour cela.
+        <br>
+        ⑤ <strong>Ajoutez le chocolat haché.</strong> Cela donne un délicieux chocolat fondu.
+        <br>
+        ⑥ <strong>Cuire.</strong> Gardez-le pendant 35 à 45 minutes.
+        <br>
+        ⑦ <strong>Laissez refroidir.</strong> Tranchez et dégustez!
+      
+       <img src = "https://www.thechunkychef.com/wp-content/uploads/2021/02/how-to-make-classic-fudgy-brownies-680x400.png" width = "400" alt = "Les étapes differentes (en image)">
+       <h4>Ingrédients:
+         <br>
+         ▢190 ml de beurre non salé
+         <br>
+▢115 g de chocolat mi-sucré ou mi-amer haché
+<br>
+▢190 ml de cassonade tassée
+<br>
+▢190 ml de sucre cristallisé
+<br>
+▢3 gros œufs à température ambiante
+<br>
+▢1 1/2 cuillère à café d'extrait de vanille
+<br>
+▢190 ml de farine tout usage
+<br>
+▢125 ml de cacao en poudre
+<br>
+▢125 ml de sel casher
+<br>
+▢125 ml de poudre d'espresso (facultatif mais recommandé)
+<br>
+▢125 ml de chocolat haché
+<br>
+</h4>
+1. <strong>Préchauffez votre four à 175 °C (350 °F)</strong> et graissez légèrement un plat de cuisson de 20 x 20 cm (8 x 8 pouces) avec un spray antiadhésif. Découpez une feuille de papier sulfurisé suffisamment grande pour recouvrir le fond et les côtés du plat afin de faciliter le démoulage des brownies.
+<br>
+2. <strong>Dans une grande casserole, faites fondre le beurre</strong> à feu moyen. Incorporez <strong>les 115 g de chocolat mi-sucré ou mi-amer haché</strong> jusqu'à ce qu'il soit complètement fondu.
+<br>
+3. <strong>Retirez la casserole du feu</strong> et incorporez la <strong>cassonade et le sucre cristallisé</strong> en fouettant jusqu'à obtenir une consistance lisse et crémeuse.
+<br>
+4. <strong>Ajoutez les œufs un à un </strong>en fouettant vigoureusement après chaque œuf. Incorporez <strong>l'extrait de vanille</strong> en remuant jusqu'à ce que le tout soit bien mélangé.
+<br>
+5. <strong>Utilisez une spatule en caoutchouc pour incorporer</strong> le cacao en poudre, la farine, le sel et (si utilisé) la poudre d'espresso. Remuez jusqu'à ce que tout soit bien mélangé, en veillant à ne pas trop mélanger. Enfin, ajoutez le chocolat haché.
+<br>
+6. <strong>Transférez la pâte dans le plat de cuisson </strong>préparé en raclant le mélange avec la spatule. Enfournez pour <strong>35 à 45 minutes, </strong>ou jusqu'à ce que le centre soit ferme et qu'un cure-dent y soit inséré. Le centre ne contient que quelques miettes humides.
+<br>
+7. <strong>Laissez les brownies refroidir </strong>sur une grille avant de les couper en carrés. Bon appétit!
+
+
+      
+
+
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+
+<small><a href = "https://www.thechunkychef.com/classic-fudgy-brownies/" target="_blank"> <h6> Recette et photos utilisées de The Chunky Chef </h6></small> </a>
+
+
+</div>
+
+
+<div id="cookie">
+<hr>
+<!doctype html>
+<!--Rania -->
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Bouchées de bonheur</title>
+  
+   <input type = "text" id = "searchinput" placeholder= "🔎 Trouve des recettes...">
+  
+    <!-- Navigation Bar -->
+ <nav class="navbar">
+   <a href="#home" class="home-button1">⾕</a>
+   <a href="#cookie">Biscuits</a>
+   <a href="#cake">Gâteaux</a>
+   <a href="#brownie">Brownies</a>
+    <a href="#pie">Tartes</a>
+ </nav>
+
+
+
+
+   <h1> Biscuits </h1>
+   <link rel="stylesheet" href="styles.css">
+   <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Kranky&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+       
+        <img id="chocolate-chip-cookies"
+     src="https://www.foodandwine.com/thmb/m00QQpM3q-PSja3zDhLaEdu5gqU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/2012-r-xl-classic-chocolate-chip-cookies-0336af978c1c4798809ec182e8af79e5.jpg" width="200" height="200"
+     alt="Des biscuits aux pépites de chocolat " style = "float:left" "
+   />
+   Ces cookies aux pépites de chocolat faits maison sont super faciles à préparer et prennent moins d'une demi-heure. Alors, si vous cherchez une recette de dernière minute, pensez à celle-ci!
+   <br>
+        <h3> Aperçu:</h3>
+        
+        ① <strong>Préchauffer le four</strong> à 190 °C.
+        <br>
+        ② Dans un petit bol, <strong>mélanger la farine, le bicarbonate de soude et le sel.</strong>  Réserver.
+        <br>
+        ③ Dans un grand saladier ou un robot pâtissier, <strong>battre le beurre fondu, le sucre cristallisé, la cassonade et l'extrait de vanille</strong> jusqu'à obtenir une consistance crémeuse.
+        <br>
+        ④ <strong>Ajoutez les œufs </strong> un à un en battant bien après chaque ajout.
+        <br>
+        ⑤ Incorporez progressivement <strong>le mélange de farine. </strong>Incorporez les <strong>pépites de chocolat. </strong>
+        <br>
+        ⑥ <strong>Déposer la pâte</strong> à l'aide d'une cuillère à soupe bombée sur des plaques de cuisson non graissées. <strong>Enfourner 10 minutes,</strong> ou jusqu'à ce qu'elle soit dorée.
+        <br>
+        ⑦ <strong>Laissez refroidir 2 minutes sur la plaque, </strong>puis déposez les biscuits sur une grille et laissez-les refroidir complètement. Bon appétit!
+      <br>
+<img src = "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/2023-09/chilling-cookie-dough.jpg?itok=8moMmkgp" width = "400" alt = "Pâte à biscuits">
+       <h3>Ingrédients:</h3>
+         <h4>
+         ▢600 ml de farine tout usage
+         <br>
+▢1 cuillère à café de bicarbonate de soude
+<br>
+▢1 cuillère à café de sel
+<br>
+▢250 ml de beurre fondu
+<br>
+▢125 ml de sucre cristallisé
+<br>
+▢250 ml de cassonade tassée
+<br>
+▢1 cuillère à café d'extrait de vanille
+<br>
+▢2 gros œufs
+<br>
+▢500 ml de pépites de chocolat mi-sucré
+
+
+</h4>
+
+
+<br>
+
+
+1. <strong>Préchauffer le four </strong>  à 190 °C.
+<br>
+2. Dans un petit bol, <strong>mélanger la farine, le bicarbonate de soude et le sel.</strong> Reserver.
+<br>
+
+
+3. Dans un grand saladier ou un robot pâtissier, <strong>battre le beurre fondu, le sucre cristallisé, la cassonade et l'extrait de vanille</strong>  jusqu'à obtenir une consistance crémeuse et lisse.
+<br>
+4. <strong>
+Incorporer les œufs </strong> un à un en battant bien après chaque ajout et incorporer <strong>le mélange de farine. </strong>
+<br>
+5. <strong>Ajouter la moitié du mélange de farine </strong>et battre à vitesse minimale jusqu'à ce que le mélange soit homogène. Ajouter le lait et 1 cuillère à soupe d'extrait de vanille et battre à vitesse lente jusqu'à ce que le mélange soit homogène.
+<br>
+6. <strong>Incorporez les pépites de chocolat,</strong> puis déposez la pâte à l'aide d'une cuillère à soupe bombée sur des plaques de cuisson non graissées.
+<br>
+7. <strong>
+Enfournez pendant 10 minutes </strong> (ou jusqu'à ce qu'ils soient dorés).
+<br>
+8. <strong>Laissez refroidir 2 minutes sur la plaque, </strong> puis déposez les biscuits sur une grille et laissez-les refroidir complètement.
+
+
+
+
+
+
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+
+<small><a href = "https://www.foodandwine.com/recipes/classic-chocolate-chip-cookies"> <h6> Recette et photos utilisées de Food & Wine </h6></small> </a>
+
+
+</div>
+</body>
+</html>
+
